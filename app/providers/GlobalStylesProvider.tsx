@@ -11,6 +11,11 @@ function GlobalStyleProvider( {children}: Props){
     return <GlobalStyles>{children}</GlobalStyles>;
 }
 
-const GlobalStyles = styled.div``;
+const GlobalStyles = styled.div`
+    padding: 2.5rem;
+    disply: flex;
+    gap: 2.5rem;
+    height: 100%;
+`;
 
 export default GlobalStyleProvider
