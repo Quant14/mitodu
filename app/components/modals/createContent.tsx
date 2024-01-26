@@ -78,7 +78,7 @@ function CreateContent() {
           value={title}
           name="title"
           onChange={handleChange("title")}
-          placeholder="e.g, Watch a video from Fireship."
+          placeholder="Do work"
         />
       </div>
       <div className="input-control">
@@ -89,7 +89,7 @@ function CreateContent() {
           name="description"
           id="description"
           rows={4}
-          placeholder="e.g, Watch a video about Next.js Auth"
+          placeholder="do the work"
         ></textarea>
       </div>
       <div className="input-control">
@@ -103,7 +103,7 @@ function CreateContent() {
         />
       </div>
       <div className="input-control toggler">
-        <label htmlFor="completed">Toggle Completed</label>
+        <label htmlFor="completed">Set as Completed</label>
         <input
           value={completed.toString()}
           onChange={handleChange("completed")}
@@ -113,7 +113,7 @@ function CreateContent() {
         />
       </div>
       <div className="input-control toggler">
-        <label htmlFor="important">Toggle Important</label>
+        <label htmlFor="important">Set as Important</label>
         <input
           value={important.toString()}
           onChange={handleChange("important")}
